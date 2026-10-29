@@ -8,12 +8,6 @@ React + Vite port of the original static HTML site.
     npm run dev      
     npm run build
 
-## Routes
-- `/` landing, `/login` (pick Student / Teacher / Admin)
-- `/:role` where role = `student | teacher | admin`
-  - index (dashboard), `prepmate`, `prepmate/chat`, `image-to-text`, `pdf-to-audio`,
-    `plagiarism-checker`, `cv-generator`, `profile`, `course`, `assignments`, `live-class`,
-    `announcement` and `participants` (teacher pages)
 
 ## Structure
 - `src/layouts/DashboardLayout.jsx` shared sidebar + navbar + `<main>` (replaces the copy-pasted markup)
